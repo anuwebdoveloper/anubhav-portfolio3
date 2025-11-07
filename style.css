@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #7f00ff, #e100ff);
+  color: white;
+  overflow-x: hidden;
+}
+
+header {
+  text-align: center;
+  padding: 80px 20px 40px;
+}
+
+header h1 {
+  font-size: 3rem;
+  text-shadow: 0 0 10px #fff;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+section {
+  padding: 60px 10%;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+ul li {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 12px 25px;
+  border-radius: 25px;
+  backdrop-filter: blur(5px);
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 15px 0;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  width: 250px;
+  margin: 0 auto;
+  padding: 12px;
+  background: white;
+  color: #7f00ff;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #7f00ff;
+  color: white;
+  box-shadow: 0 0 25px #e100ff;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
